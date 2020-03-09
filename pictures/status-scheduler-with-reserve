@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-09T11:36:25.834Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Ll0tLMkOTNzdVcf2UKio" version="12.8.1" type="github">
+<mxfile host="www.draw.io" modified="2020-03-09T11:37:16.774Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="FHctt8m5ngTnmh-8uJY6" version="12.8.1" type="github">
   <diagram id="08vo_b__AEAyC75KzNcH" name="Page-1">
     <mxGraphModel dx="2066" dy="2322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,7 +81,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-22" value="bind store" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="80" width="64" height="80" as="geometry" />
+          <mxGeometry x="760" y="80" width="64" height="80" as="geometry" />
         </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="r2m_aaCeaVIpMa4bN5v_-31" target="r2m_aaCeaVIpMa4bN5v_-27">
           <mxGeometry relative="1" as="geometry" />
@@ -92,13 +92,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-25" value="etcd cluster" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="324" y="-90" width="160" height="70" as="geometry" />
+          <mxGeometry x="324" y="-110" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="r2m_aaCeaVIpMa4bN5v_-27" target="r2m_aaCeaVIpMa4bN5v_-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="r2m_aaCeaVIpMa4bN5v_-56" value="&lt;font color=&quot;#ff3333&quot;&gt;store with cache&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="r2m_aaCeaVIpMa4bN5v_-26">
+          <mxGeometry x="-0.0449" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-27" value="informer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="557" y="60" width="100" height="40" as="geometry" />
+          <mxGeometry x="532" y="60" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-28" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;sched.bind&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="186" y="510" width="84" height="20" as="geometry" />
@@ -110,7 +115,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-31" value="apiServer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="344" y="10" width="140" height="50" as="geometry" />
+          <mxGeometry x="344" y="-10" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r2m_aaCeaVIpMa4bN5v_-36" target="r2m_aaCeaVIpMa4bN5v_-6">
           <mxGeometry relative="1" as="geometry" />
