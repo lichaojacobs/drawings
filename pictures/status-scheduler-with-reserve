@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-03-09T16:24:30.978Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Viob0fF5kGjWKRKNYxDL" version="12.8.1" type="github">
+<mxfile host="www.draw.io" modified="2020-03-10T05:53:49.667Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="BpXIdFHOlZgz3Bxdh4zS" version="12.8.1" type="github">
   <diagram id="08vo_b__AEAyC75KzNcH" name="Page-1">
-    <mxGraphModel dx="946" dy="1782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="2322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,6 +57,9 @@
           <mxGeometry x="-0.1919" y="23" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DCCga4dk0VMcec4ykha3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;dashed=1;" edge="1" parent="1" source="r2m_aaCeaVIpMa4bN5v_-16" target="r2m_aaCeaVIpMa4bN5v_-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-16" value="predicate extender" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="569" y="221" width="142" height="29" as="geometry" />
@@ -129,42 +132,31 @@
           <mxGeometry x="202" y="390" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="460" width="220" height="229" as="geometry" />
+          <mxGeometry x="800" y="340" width="220" height="229" as="geometry" />
         </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-48" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="r2m_aaCeaVIpMa4bN5v_-45" target="r2m_aaCeaVIpMa4bN5v_-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-45" value="check pod on node" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="569" y="490" width="142" height="29" as="geometry" />
+          <mxGeometry x="839" y="370" width="142" height="29" as="geometry" />
         </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-50" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="r2m_aaCeaVIpMa4bN5v_-47" target="r2m_aaCeaVIpMa4bN5v_-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-47" value="if any other node left" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="569" y="556" width="142" height="29" as="geometry" />
+          <mxGeometry x="839" y="436" width="142" height="29" as="geometry" />
         </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-55" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" source="r2m_aaCeaVIpMa4bN5v_-49" target="r2m_aaCeaVIpMa4bN5v_-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-49" value="soft or hard restrict" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="569" y="620" width="142" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="r2m_aaCeaVIpMa4bN5v_-46" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="r2m_aaCeaVIpMa4bN5v_-22" target="r2m_aaCeaVIpMa4bN5v_-45" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="820" y="160" />
-              <mxPoint x="820" y="505" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="r2m_aaCeaVIpMa4bN5v_-51" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="r2m_aaCeaVIpMa4bN5v_-19" target="r2m_aaCeaVIpMa4bN5v_-45" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="839" y="500" width="142" height="29" as="geometry" />
         </mxCell>
         <mxCell id="r2m_aaCeaVIpMa4bN5v_-52" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;Loop&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="530" y="460" width="58" height="20" as="geometry" />
+          <mxGeometry x="800" y="340" width="58" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r2m_aaCeaVIpMa4bN5v_-53" value="&lt;h1&gt;&lt;ul style=&quot;margin: 0px ; list-style-type: square ; color: rgb(23 , 43 , 77) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; font-weight: 400 ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li&gt;soft模式：&lt;span style=&quot;font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif&quot;&gt;(allocatableResource-nonZeroRequestSource +new pod&amp;nbsp;requestResource) &amp;lt; old pod&amp;nbsp;requestResource&lt;/span&gt;&lt;/li&gt;&lt;li&gt;hard模式：&lt;span style=&quot;font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif&quot;&gt;(allocatableResource-requestedResource +new&amp;nbsp;pod&amp;nbsp;requestResource ) &amp;lt; old pod requestResource&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="303.5" y="730" width="856.5" height="70" as="geometry" />
+        <mxCell id="r2m_aaCeaVIpMa4bN5v_-53" value="&lt;h1&gt;&lt;ul style=&quot;margin: 0px ; list-style-type: square ; color: rgb(23 , 43 , 77) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; font-weight: 400 ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li&gt;soft模式：(allocatableResource-requestedResource&amp;nbsp;+new pod&amp;nbsp;requestResource) &amp;lt; old pod&amp;nbsp;requestResource&lt;/li&gt;&lt;li&gt;hard模式：&lt;span style=&quot;font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif&quot;&gt;(allocatableResource-nonZeroRequestSource&amp;nbsp;+new&amp;nbsp;pod&amp;nbsp;requestResource ) &amp;lt; old pod requestResource&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="481.75" y="630" width="856.5" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
